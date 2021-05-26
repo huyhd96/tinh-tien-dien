@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính tiền điện online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TÍNH TIỀN ĐIÊN ONLINE</h1>
+        <div class="inputText">
+            <label>Chỉ số điện tháng trước (kW)</label>
+            <input id="oldIndex" type="number">
+            <label>Chỉ số điện tháng này (kW)</label>
+            <input id="newIndex" type="number">
+            <label>Đơn giá (VND)</label>
+            <input id="price" type="number">
+        </div>
+        <button onclick="cal()">Kết quả</button>
+        <div class="inputText">
+            <label>Tổng tiền điện</label>
+            <input id="result">
+        </div>
+    </div>
+    <script src="my.js"></script>
+</body>
+
+</html>
